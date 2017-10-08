@@ -1,9 +1,13 @@
 {{ partial "head" . }}
+{{ partial "nav" . }}
+  <div class="mw6 center ph3 pv4">
+    <h1 class="f2 lh-title b mb3">{{.Title}}</h1>
+    <div class="flex justify-between grey-3">
+      <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
+      <p>Read in {{ .ReadingTime }} minutes</p>
+    </div>
+    <div class="cms mw6">
+      {{ .Content }}
+    </div>
+  </div>
 
-{{ partial "short-text" (dict "heading" "garbage" "text" "garbageaoo")}}
-
-{{ partial "2-up" (dict "heading" "garbage" "description" "dot tk" "buttonText" "See all" "buttonLink" "/products"  ) }}
-
-{{ partial "text-and-image" (dict "heading" " values" "text" "unifying nature." "buttonText" "Read more" "buttonLink" "/values") }}
-
-{{ partial "blog" . }}
