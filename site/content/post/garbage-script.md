@@ -1,7 +1,7 @@
 ---
 title: garbage script
 date: 2017-10-08T23:19:15.747Z
-description: the show the people
+description: the show, the people
 ---
 THE SHOW
 ===
