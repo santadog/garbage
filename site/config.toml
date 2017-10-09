@@ -10,7 +10,7 @@ paginate = 1
 canonifyurls = true
 
 [params]
-  description = "this is my description"
+  description = "the man - the legend - the draft"
 #  cover = "images/cover.jpg"
 #  author = "Valère JEANTET"
 #  authorlocation = "Paris, France"
